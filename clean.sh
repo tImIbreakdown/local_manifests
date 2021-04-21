@@ -24,5 +24,6 @@ make -j$(nproc) ARCH=arm clean
 #breakfast lineage_s2-userdebug 2>&1 | tee breakfast.log && \
 #brunch lineage_s2-userdebug 2>&1 | tee make.log
 
+clear
 breakfast lineage_s2-userdebug
 brunch lineage_s2-userdebug
